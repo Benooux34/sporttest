@@ -37,7 +37,7 @@ export default function Home() {
         <h2 className="text-xl">La Nutrition</h2>
       </div>
 
-      <div className="mt-5 space-y-5">
+      <div className="mt-3 space-y-5">
         <Link href="/food">
           <div className="h-[60px] w-[90%] bg-blue-500 mx-auto rounded-lg flex justify-between items-center px-4">
             <div className="bg-white h-[50%] w-[10%] rounded-lg flex justify-center items-center">
