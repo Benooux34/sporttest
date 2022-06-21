@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
-import { Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -22,40 +20,17 @@ export default function Home() {
       </div>
 
       {/* Training */}
-      <div className="mb-5 ml-5">
-        <h2 className="text-2xl">Les Entrainements</h2>
-      </div>
-      <div>
-        <Swiper
-          slidesPerView={2}
-          spaceBetween={10}
-          centeredSlides={true}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination]}
-          className="mySwiper h-[220px] w-[100%]"
-        >
-          <SwiperSlide>
-            <img className="" src="pectoraux.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="" src="abdos.jpg" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="" src="bras.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="" src="jambes.jpg" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className="" src="epaules.jpg" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://previews.123rf.com/images/decade3d/decade3d1605/decade3d160500048/58756561-grand-dorsal-anatomie-muscles-isol%C3%A9-sur-blanc-illustration-3d.jpg" alt="" />
-          </SwiperSlide>
-        </Swiper>
-      </div>
+      <Link href="/sport">
+        <div className="relative h-[120px] w-[90%] bg-blue-400 mx-auto rounded-lg pt-3 pl-4">
+          <h2 className="text-xl text-white">Les Entrainements</h2>
+          <span className="text-white font-light">Pectoraux - Abdominaux - Bras - Dos...</span>
+
+          <div className="absolute bottom-3 right-3">
+            <BsFillArrowRightCircleFill fontSize={30} color="white" />
+          </div>
+        </div>
+      </Link>
+
 
     </div>
   )
