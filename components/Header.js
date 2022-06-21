@@ -8,26 +8,26 @@ import { BsJournalBookmark } from "react-icons/bs";
 
 function Header() {
   return (
-    <div className="fixed bottom-0 w-full">
-      <div className="flex justify-between items-center w-full h-[60px] bg-blue-400 px-5">
+    <div className="fixed bottom-0 w-full z-10">
+      <div className="flex justify-between items-center w-full h-[40px] bg-blue-400 px-5">
         <Link href="/">
           <div>
-            <AiOutlineHome className="cursor-pointer" fontSize={40} color="white" />
+            <AiOutlineHome className="cursor-pointer" fontSize={30} color="white" />
           </div>
         </Link>
         <Link href="/sport">
           <div>
-            <GiMuscleUp className="cursor-pointer" fontSize={40} color="white" />
+            <GiMuscleUp className="cursor-pointer" fontSize={30} color="white" />
           </div>
         </Link>
         <Link href="/food">
           <div>
-            <IoFastFoodOutline className="cursor-pointer" fontSize={40} color="white" />
+            <IoFastFoodOutline className="cursor-pointer" fontSize={30} color="white" />
           </div>
         </Link>
         <Link href="/planning">
           <div>
-            <BsJournalBookmark className="cursor-pointer" fontSize={35} color="white" />
+            <BsJournalBookmark className="cursor-pointer" fontSize={25} color="white" />
           </div>
         </Link>
       </div>
