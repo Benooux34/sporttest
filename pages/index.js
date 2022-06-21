@@ -27,26 +27,32 @@ export default function Home() {
       </div>
       <div>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={2}
           spaceBetween={10}
           centeredSlides={true}
           pagination={{
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper w-[100%]"
+          className="mySwiper h-[220px] w-[100%]"
         >
           <SwiperSlide>
-            <img className="" src="pectoraux.png" alt="" />
+            <img className="object" src="pectoraux.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="" src="abdos.jpg" alt="" />
+            <img className="object" src="abdos.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="" src="bras.png" alt="" />
+            <img className="object" src="bras.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="" src="jambes.jpg" alt="" />
+            <img className="object" src="jambes.jpg" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="object" src="epaules.jpg" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="object" src="dos.jpg" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
