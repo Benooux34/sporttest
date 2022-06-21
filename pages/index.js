@@ -37,22 +37,22 @@ export default function Home() {
           className="mySwiper h-[220px] w-[100%]"
         >
           <SwiperSlide>
-            <img className="object" src="pectoraux.png" alt="" />
+            <img className="" src="pectoraux.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="object" src="abdos.jpg" alt="" />
+            <img className="" src="abdos.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="object" src="bras.png" alt="" />
+            <img className="" src="bras.png" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="object" src="jambes.jpg" alt="" />
+            <img className="" src="jambes.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="object" src="epaules.jpg" alt="" />
+            <img className="" src="epaules.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="object" src="dos.jpg" alt="" />
+            <img src="https://previews.123rf.com/images/decade3d/decade3d1605/decade3d160500048/58756561-grand-dorsal-anatomie-muscles-isol%C3%A9-sur-blanc-illustration-3d.jpg" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
