@@ -1,5 +1,9 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export default function Home() {
   return (
@@ -11,6 +15,31 @@ export default function Home() {
       </Head>
 
       <Header />
+
+      <div className="p-5">
+        <span className="text-2xl font-light">Salut Lucas,</span>
+        <h1 className="text-3xl mt-2">Road to The Rock le Boss</h1>
+      </div>
+
+      {/* Training */}
+      <div className="my-5 ml-5">
+        <h2 className="text-2xl">Les Entrainements</h2>
+      </div>
+      <div>
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          centeredSlides={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper h-[200px] w-full"
+        >
+          <SwiperSlide className="h-full bg-black">Slide 1</SwiperSlide>
+          <SwiperSlide className="h-full bg-black">Slide 2</SwiperSlide>
+        </Swiper>
+      </div>
 
     </div>
   )
