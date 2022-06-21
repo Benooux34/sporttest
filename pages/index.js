@@ -22,22 +22,32 @@ export default function Home() {
       </div>
 
       {/* Training */}
-      <div className="my-5 ml-5">
+      <div className="mb-5 ml-5">
         <h2 className="text-2xl">Les Entrainements</h2>
       </div>
       <div>
         <Swiper
-          slidesPerView={4}
-          spaceBetween={30}
+          slidesPerView={3}
+          spaceBetween={10}
           centeredSlides={true}
           pagination={{
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper h-[200px] w-full"
+          className="mySwiper w-[100%]"
         >
-          <SwiperSlide className="h-full bg-black">Slide 1</SwiperSlide>
-          <SwiperSlide className="h-full bg-black">Slide 2</SwiperSlide>
+          <SwiperSlide>
+            <img className="" src="pectoraux.png" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="" src="abdos.jpg" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="" src="bras.png" alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="" src="jambes.jpg" alt="" />
+          </SwiperSlide>
         </Swiper>
       </div>
 
