@@ -5,6 +5,11 @@ function food() {
   return (
     <div>
         <Header />
+
+        <div className="p-5">
+          <h1 className="font-light text-2xl">La Nutrition</h1>
+        </div>
+
     </div>
   )
 }

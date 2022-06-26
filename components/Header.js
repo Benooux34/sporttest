@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { AiOutlineHome } from "react-icons/ai";
 import { GiMuscleUp } from "react-icons/gi";
 import { IoFastFoodOutline } from "react-icons/io5";
-import { BsJournalBookmark } from "react-icons/bs";
+import { BsCalculatorFill } from "react-icons/bs";
 
 function Header() {
   return (
@@ -25,9 +25,9 @@ function Header() {
             <IoFastFoodOutline className="cursor-pointer" fontSize={30} color="white" />
           </div>
         </Link>
-        <Link href="/planning">
+        <Link href="/calcul">
           <div>
-            <BsJournalBookmark className="cursor-pointer" fontSize={25} color="white" />
+            <BsCalculatorFill className="cursor-pointer" fontSize={25} color="white" />
           </div>
         </Link>
       </div>
