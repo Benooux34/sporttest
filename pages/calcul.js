@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../components/Header'
 
-function calcul() {
+function Calcul() {
 
   const [taille, setTaille] = useState('')
   const [poids, setPoids] = useState('')
@@ -80,4 +80,4 @@ function calcul() {
   )
 }
 
-export default calcul
+export default Calcul
