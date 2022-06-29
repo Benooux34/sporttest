@@ -28,7 +28,7 @@ function sport() {
         </div>
       </Link>
 
-      <div className="mt-5 grid grid-cols-3 gap-y-5 place-items-center justify-self-center">
+      <div className="mt-5 grid grid-cols-3 gap-y-3 place-items-center justify-self-center">
         <Link href="/sport/pectoraux">
           <div className="bg-blue-400 w-[90%] h-[90px] rounded-lg flex flex-col justify-center items-center">
             <div className="flex justify-center items-center mb-3">
